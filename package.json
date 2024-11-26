@@ -1,0 +1,53 @@
+{
+  "name": "blog-graphql",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Danial Khakbaz<danialkhakbaz.dk@gmail.com>",
+  "description": "Danial Khakbaz's Blog built with next.js and graphQL",
+  "keywords": [
+    "portfolio",
+    "danial khakbaz",
+    "danial",
+    "khakbaz",
+    "Front-end Developer",
+    "Web Developer",
+    "Software Developer"
+  ],
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix",
+    "fix": "prettier --write .",
+    "upgrade": "yarn upgrade-interactive --latest",
+    "knip": "npx knip",
+    "check-prettier": "prettier . --check"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@next/eslint-plugin-next": "^15.0.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.12.0",
+    "graphql": "^16.9.0",
+    "graphql-request": "^7.1.2",
+    "next-view-transitions": "^0.3.2",
+    "postcss": "^8",
+    "prettier": "^3.4.0",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "react-icons": "^5.3.0",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "typescript-eslint": "^8.16.0"
+  }
+}
